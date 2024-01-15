@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+ <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+ <title>Huddle</title>
+</head>
+<body>
+<header class="header">
+ <img src="../huddle/img/logo.svg">
+</header>
+<main>
+<section class="container">
+<div class="box1">
+ <img src="../huddle/img/illustration-mockups.svg">
+</div>
+<div class="box2">
+ <h1>Build The Community Your Fans Will Love</h1>
+ <p>Huddle re-imagines the way we build communities. You have a voice but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
+ <a href="#" class="btn">Register</a>
+</div>
+</section>
+</main>
+<footer>
+ <i class="fab fa-facebook-f" id="gif"></i>
+ <i class="fab fa-twitter" id="gif"></i>
+ <i class="fab fa-instagram" id="gif"></i>
+</footer>
+</body>
+</html>
