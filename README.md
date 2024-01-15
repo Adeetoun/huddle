@@ -31,3 +31,96 @@
 </footer>
 </body>
 </html>
+
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+background-image: url(../projects/images/bg-desktop.svg);
+background-color: hsl(257, 40%, 49%);
+color: #fff;
+}
+h1 {
+font-size: 35px;
+}
+p{
+margin-top: 15px;
+line-height: 1.6;
+}
+.header {
+margin: 20px;
+padding: 20px;
+}
+main {
+margin: 20px;
+padding: 20px;
+}
+.container {
+display: flex;
+}
+.box1 {
+width: 60%;
+}
+.box2 {
+width: 40%;
+margin: 10px;
+padding:20px;
+}
+.btn {
+background: #fff;
+color: purple;
+text-align: center;
+border-radius: 10px;
+margin-top: 20px;
+text-decoration: none;
+display: block;
+width: 40%;
+padding: 5px;
+}
+footer{
+text-align: end;
+margin-right: 60px;
+margin-bottom: 50px;
+word-spacing: 10px;   
+}
+#gif{
+width: 30px;
+height: 30px;
+line-height: 30px ;
+text-align: center;
+display: inline-block;
+border: 1px solid #fff;
+border-radius: 50%;
+}
+@media(max-width:768px) {
+body {
+background-image: url(../projects/images/bg-mobile.svg) no-repeat center center/cover;
+background-color: hsl(257, 40%, 49%);
+color: #fff;
+}
+p{
+font-size: 20px;
+}
+.box1 img{
+width:430px;
+}
+.container{
+flex-direction: column;
+justify-content: center;
+}
+.box2{
+text-align: center;
+width: 100%;
+margin-top: 10px;
+}
+.btn{
+margin: auto;
+margin-top: 15px;
+padding:10px;
+}
+footer{
+text-align:center;
+}
+}
